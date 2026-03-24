@@ -71,6 +71,9 @@ def show_register():
                 st.error("Please enter a valid number")
 
         register = st.button("Register")
+        back_button = st.button("Back")
+        if back_button:
+            st.session_state.logged_in == 0
         if register and name and password and username and age and height and weight:
             enter_user(name,username,password,int(age),float(weight),float(height))
             st.success("You have successfully registered")
