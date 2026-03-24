@@ -8,7 +8,7 @@ def show_register():
         st.subheader('A post grad project by: ')
         st.text('Sahil Puranik | 256534')
         st.text('Aditya Gaikwad | 256501')
-        st.text('Tejas Sawant | (roll_no)')
+        st.text('Tejas Sawant | 256550')
         st.divider()
     st.markdown("""
                 """
