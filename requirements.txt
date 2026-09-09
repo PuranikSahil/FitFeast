@@ -3,3 +3,4 @@ crewai
 supabase
 python-dotenv
 crewai[litellm]
+scikit-learn
