@@ -3,16 +3,23 @@ def show_dashboard():
     st.set_page_config("Dashboard")
     with st.sidebar:
         st.subheader('A post grad project by: ')
-        st.text('Sahil Puranik | 256534')
-        st.text('Aditya Gaikwad | 256501')
-        st.text('Tejas Sawant | (roll_no)')
+        st.text('Sahil Puranik | 256534 \n MSc Data Science \n Fergusson College, Pune')
         st.divider()
+        st.text('Tech Stack used: \n'
+                'CrewAI \n'
+                'Supabase \n'
+                'Streamlit \n')
+        st.divider()
+        st.text('Machine Learning algorithm used: \n'
+                'K-Nearest Neighbors \n')
+        st.divider()
+        st.text('LLM: groq/openai/gpt-oss-120b \n')
     st.markdown("""
                 """
                 """
                 <style>
                 .stApp{
-                background-image: url("https://t3.ftcdn.net/jpg/00/93/94/70/360_F_93947061_762RH5kKEGwEJNGSN6flzUOJaXkMVVAT.jpg");
+                background-image: url("https://singlecolorimage.com/get/BDBC70/1920x300 ");
                 background-attachment: fixed;
                 background-size: cover;
                 }
@@ -66,11 +73,7 @@ def show_dashboard():
         if register:
             st.session_state.logged_in = 2
             st.rerun()
-    with col3:
-        admin = st.button("Admin")
-        if admin:
-            st.error("You..Admin..srsly? ..Sorry")
-            st.session_state.logged_in = 0
+
 
 
 

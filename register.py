@@ -8,14 +8,15 @@ def show_register():
         st.subheader('A post grad project by: ')
         st.text('Sahil Puranik | 256534')
         st.text('Aditya Gaikwad | 256501')
-        st.text('Tejas Sawant | (roll_no)')
+        st.text('Tejas Sawant | 256550')
+        
         st.divider()
     st.markdown("""
                 """
                 """
                 <style>
                 .stApp{
-                background-image: url("https://t3.ftcdn.net/jpg/00/93/94/70/360_F_93947061_762RH5kKEGwEJNGSN6flzUOJaXkMVVAT.jpg");
+                background-image: url("https://singlecolorimage.com/get/BDBC70/1920x300");
                 background-attachment: fixed;
                 background-size: cover;
                 }
@@ -23,6 +24,8 @@ def show_register():
                 """,
                 unsafe_allow_html=True
             )
+
+
 
     st.markdown("""
                     <style>

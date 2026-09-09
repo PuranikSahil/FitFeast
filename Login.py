@@ -6,9 +6,10 @@ def show_login():
                 """
                 <style>
                 .stApp{
-                background-image: url("https://t3.ftcdn.net/jpg/00/93/94/70/360_F_93947061_762RH5kKEGwEJNGSN6flzUOJaXkMVVAT.jpg");
+                background-image: url("https://singlecolorimage.com/get/BDBC70/1920x300");
                 background-attachment: fixed;
                 background-size: cover;
+                
                 }
                 </style>
                 """,

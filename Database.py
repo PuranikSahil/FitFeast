@@ -29,4 +29,6 @@ def match_user_pwd(user_name,password):
                 .eq("user_name", user_name)
                 .execute()
     )
+    if not response.data:
+        return None  # username not found
     return response.data[0]["user_password"]
