@@ -25,6 +25,9 @@ def show_login():
         email = st.text_input("Enter your username")
         pwd = st.text_input("Enter your password",type="password")
         login = st.button("Login")
+        back_button = st.button("Back")
+        if back_button:
+            st.session_state.logged_in == 0
         if login:
             act_pwd = match_user_pwd(email,pwd)
             if pwd==act_pwd:

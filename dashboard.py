@@ -3,6 +3,7 @@ def show_dashboard():
     st.set_page_config("Dashboard")
     with st.sidebar:
         st.subheader('A post grad project by: ')
+        
         st.text('Sahil Puranik | 256534 \n MSc Data Science \n Fergusson College, Pune')
         st.divider()
         st.text('Tech Stack used: \n'
