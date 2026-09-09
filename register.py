@@ -9,10 +9,6 @@ def show_register():
         st.text('Sahil Puranik | 256534')
         st.text('Aditya Gaikwad | 256501')
         st.text('Tejas Sawant | 256550')
-<<<<<<< HEAD
-        
-=======
->>>>>>> 83ef38deb8bc29700a862b7c5cf470b6760018b0
         st.divider()
     st.markdown("""
                 """
