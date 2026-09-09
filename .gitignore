@@ -1,2 +1,5 @@
-GroQ.py
+.streamlit/
+__pycache__/
+venv/
+.idea/
 .env
